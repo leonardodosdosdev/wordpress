@@ -42,6 +42,7 @@ services:
       WORDPRESS_DB_USER: user1
       WORDPRESS_DB_PASSWORD: password
       WORDPRESS_DB_NAME: wordpress_db
+      WORDPRESS_DEBUG: 'true'
     volumes: ['./:/var/www/html']
     networks:
       - wpsite
